@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+int h,o;
 int main(){
-    cout<<(9/4+9%4)*5/2;
+    cin>>h;
+    o=3+h%5;
+    cout<<o%5;
 }

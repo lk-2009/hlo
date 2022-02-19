@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+int t,d,v;
 int main(){
-    cout<<(9/4+9%4)*5/2;
+    cin>>v>>d;  
+    t=d/v;
+    cout<<t;
 }
